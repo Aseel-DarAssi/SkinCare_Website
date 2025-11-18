@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Skin Care</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">SkinCare</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+      <a href="../ar/index.html" class="btn btn-outline-primary ms-3">العربية</a>
+      <button class="btn btn-primary ms-2" data-bs-toggle="modal" data-bs-target="#quoteModal">Get Quote</button>
+    </div>
+  </div>
+</nav>
+<div class="small bg-dark text-white text-center py-1">Contact</div>
+<nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
+  <div class="container"><a class="navbar-brand" href="index.html">SkinCare</a> <a href="../ar/contact.html" class="btn btn-outline-primary ms-3">العربية</a></div>
+</nav>
+
+<main class="container py-5">
+  <h1 class="h3">Contact Us</h1>
+  <div class="row g-4">
+    <div class="col-md-6">
+      <form onsubmit="event.preventDefault(); alert('Message sent (demo)')">
+        <input class="form-control mb-2" placeholder="Name" required>
+        <input class="form-control mb-2" placeholder="Email" required type="email">
+        <input class="form-control mb-2" placeholder="Subject">
+        <textarea class="form-control mb-2" placeholder="Message" rows="4"></textarea>
+        <button class="btn btn-primary">Send</button>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <div class="ratio ratio-16x9">
+        <!-- <iframe src="https://maps.google.com/maps?q=New%20York&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" title="map" allowfullscreen></iframe> -->
+      </div>
+      <ul class="list-unstyled small mt-3">
+        <li><i class="bi bi-geo-alt-fill"></i> 123 Skin St.</li>
+        <li><i class="bi bi-telephone-fill"></i> +1 234 567 890</li>
+        <li><i class="bi bi-envelope-fill"></i> info@skincare.com</li>
+      </ul>
+    </div>
+  </div>
+</main>
+
+<footer class="bg-dark text-light py-4 text-center small">© SkinCare</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

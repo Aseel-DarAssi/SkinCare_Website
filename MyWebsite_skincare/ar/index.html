@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>العناية بالبشرة — الرئيسية</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Topbar -->
+<div class="small bg-dark text-white text-center py-1">📞 +1 234 567 890 • <a class="link-light" href="#">@skincare</a></div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">العناية</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">الرئيسية</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">الخدمات</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">أعمال</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">المدوّنة</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">من نحن</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">اتصل بنا</a></li>
+      </ul>
+      <a href="../en/index.html" class="btn btn-outline-primary ms-3">English</a>
+      <button class="btn btn-primary ms-2" data-bs-toggle="modal" data-bs-target="#quoteModal">اطلب عرض</button>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ✅ Carousel Added (Nothing Removed) -->
+<div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://media.istockphoto.com/id/2185993729/fr/photo/concepts-publicitaires-de-cosm%C3%A9tiques-de-soins-de-la-peau-avec-cr%C3%A8me-en-pot-s%C3%A9rum-et-cr%C3%A8me.webp?a=1&b=1&s=612x612&w=0&k=20&c=FHmKbtfC7scTtlRWOZV3cxUmear8NwdE4zCxFzptcWU=" class="d-block w-100" style="height:450px; object-fit:cover;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded-3">
+        <h5>بشرة صحية تبدأ من هنا</h5>
+        <p>أفضل منتجات العناية والروتين اليومي</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://media.istockphoto.com/id/2197594841/fr/photo/divers-r%C3%A9cipients-cosm%C3%A9tiques-blancs-sur-fond-bleu.webp?a=1&b=1&s=612x612&w=0&k=20&c=L6c0hHXBv62sOXu8Sgjwlj5J7jc8ftFaxyMZjBBo-Ro=" class="d-block w-100" style="height:450px; object-fit:cover;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded-3">
+        <h5>جلسات عناية احترافية</h5>
+        <p>نستخدم أحدث الأجهزة والتقنيات</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1591130901921-3f0652bb3915?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2tpbmNhcmUlMjBwcm9kdWN0c3xlbnwwfHwwfHx8MA%3D%3D" class="d-block w-100" style="height:450px; object-fit:cover;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded-3">
+        <h5>منتجات عالية الجودة</h5>
+        <p>نتعامل فقط مع ماركات موثوقة</p>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<!-- END Carousel -->
+
+
+<!-- Hero -->
+<header class="container py-5 text-center">
+  <h1 class="display-5">العناية الاحترافية بالبشرة</h1>
+  <p class="lead text-muted">بشرة صحية = ثقة أكبر</p>
+  <a class="btn btn-primary btn-lg" href="services.html">خدماتنا</a>
+</header>
+
+<section class="container py-5">
+  <h2 class="mb-4">خدماتنا</h2>
+  <div id="servicesGrid"></div>
+</section>
+
+<section class="container py-5">
+  <h2 class="mb-4">أحدث المقالات</h2>
+  <div id="postsGrid"></div>
+</section>
+
+<footer class="bg-dark text-light pt-4">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4"><h5>العناية</h5><p class="small">محترفون في العناية بالبشرة.</p></div>
+      <div class="col-md-4"><h6>سياسات</h6><ul class="list-unstyled small"><li><a class="link-light" href="privacy.html">الخصوصية</a></li><li><a class="link-light" href="terms.html">الشروط</a></li><li><a class="link-light" href="refund.html">الاسترجاع</a></li></ul></div>
+      <div class="col-md-4"><h6>اشترك</h6><form class="d-flex" onsubmit="event.preventDefault(); alert('تم الاشتراك (تجريبي)')"><input class="form-control me-2" placeholder="البريد"><button class="btn btn-outline-light">انضم</button></form></div>
+    </div>
+    <div class="text-center small py-3">© العناية</div>
+  </div>
+</footer>
+
+<!-- Quote Modal -->
+<div class="modal fade" id="quoteModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <form class="modal-content" onsubmit="event.preventDefault(); alert('تم إرسال الطلب (تجريبي)')">
+      <div class="modal-header"><h5 class="modal-title">اطلب عرض</h5></div>
+      <div class="modal-body">
+        <input class="form-control mb-2" placeholder="الاسم" required>
+        <input class="form-control mb-2" placeholder="البريد" required type="email">
+        <textarea class="form-control" placeholder="التفاصيل" rows="3"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline-secondary" data-bs-dismiss="modal" type="button">إغلاق</button>
+        <button class="btn btn-primary" type="submit">إرسال</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/site-data.js"></script>
+<script>initHome();</script>
+</body>
+</html>
